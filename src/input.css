@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font {
+    font-size: 1.7vh;
+    text-transform:inherit;
+    
+}
+.font0 {
+    font-family: corbel;
+    text-transform: capitalize;
+    font-size: 1.6vh;
+} 
+.font1{
+    font-size: 1.3vh;
+    font-family: corbel;
+    text-transform: lowercase;
+}
+.font2 {
+    font-size: 2.5vh;
+    text-transform: capitalize;
+    font-family: Tw Cen MT;
+    font-weight: 700;
+}
+
+.font3 {
+    font-size: 1.8vh;
+    text-transform: capitalize;
+     font-family: corbel;
+     font-weight: bolder;
+    
+}
+.translateyy {
+    transform: translateY(-0.15rem);
+}
+.translateyx {
+    transform: translate(-14.5rem);
+}
