@@ -13,11 +13,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
     
-    
-
-
 </head>
-<body class="p-8 ml-12 mr-12 min-h-screen">
+
+<body class="px-8 py-4 ml-12 mr-12 min-h-screen shadow">
     <header class="flex justify-between w-full items-center">
         <!-- left header -->
         <div class="flex items-center space-x-4">
@@ -281,8 +279,8 @@
         </section>
 
         <!-- middle bar -->
-        <section class="w-2/4 min-h-full ">
-            <div class="flex justify-between items-center font1 text-gray-800 px-2">
+        <section class="w-2/4 min-h-full  ">
+                <div class="flex justify-between items-center font1 text-gray-800 px-2">
                 <!-- left sife -->
                 <div class="flex space-x-2 items-center">
                     <span class="w-6 h-6 rounded-xl flex bg-blue-200">
@@ -301,9 +299,9 @@
                         </div>
             </div>
             <!--Start Message Box -->
-            <section class="w-full rounded relative ">
-                <img src="/build/images/images (1).jpeg" alt="chat background" class=" bg-cover w-full rounded-3xl">
-                <div class="bg-white m-5 p-3 absolute top-0 w-11/12 rounded-xl ">
+            <section class=" rounded relative ">
+                <img src="/build/images/images (1).jpeg" alt="chat background" class=" w-full rounded-3xl"> 
+                <div class="bg-white m-5 p-3 absolute top-0 w-11/12 rounded-xl">
                     <div class="flex space-x-2 items-center">
                         <span class="w-6 h-6 rounded-xl flex bg-blue-200">
                             <img src="/build/images/images (2).jpeg" alt="head1" width="20" height="20" class="w-6 h-6 rounded-xl"></span>
@@ -347,13 +345,13 @@
                         <div class="absolute text-black transform translate-y-8 left-0 top-11 font3">13:13</div>  
 
                         </div>
-                <div class="bg-white rounded w-96 transform -translate-y-24 translate-x-10 mx-4 text-center space-x-1">
+                <div class="bg-white rounded w-9/12 transform -translate-y-24 translate-x-2 mx-auto text-center space-x-1">
                     <span class="i fa-solid fa-shopping-cart font text-green-500 "></span>
                     <span class=" font rounded text-emerald-600 bg-emerald-300 ">@naturwhite@gmail.com</span>
                     <span class=" font text-black ">Product Puchased!</span>
-                    <span class=" font rounded text-gray-200 bg-black ">@7500</span>
-                    <span class=" font text-black font-bold">Itele CROCS</span>
-                    <span class=" font1 text-gray-400 ">2m</span>
+                    <span class=" font rounded text-gray-200 bg-black px-1 ">@7500</span>
+                    <span class=" font text-black font-bold">Itel CROCS</span>
+                    <span class=" font1 text-gray-400 ">2m ago</span>
                   </div>
 
                   <div class=" p-2 transform -translate-y-8 w-full border rounded-md border-gray-300">
@@ -434,9 +432,13 @@
 
         <div class="flex items-center m-4 justify-end">
           
-            <form action="get" class="flex relative  ">
-            <input type="text" id="search" class=" rounded outline-none p-1  bg-gray-100 w-56 font0 " placeholder="Search in general... "> 
-            <i class="fa-solid fa-search text-gray-300 font transform -translate-x-32 translate-y-1"></i>
+            
+        <label class="flex relative">
+            <span class=" absolute insert-y-0 left-0 flex items-center pl-2">
+             <i class="fa-solid fa-search text-slate-300 font0 transform translate-y-1"></i> </span>
+        <input type="text" name="search" class=" pl-7 pr-2 rounded outline-none p-1  bg-gray-100 w-56 font0 placeholder:italic placeholder:font-bold" placeholder="Search in general...  "> 
+        
+        </label>
            
         </form>
         </div>
@@ -521,15 +523,11 @@
          </div> 
 
          <div >
-         <span class="font0  bg-gray-200 m-2 rounded font-bold p-1"> Abandoned Cart <i class="fa-solid mx-1 fa-clock"></i> </span>
-         
-         <span class="font0  bg-gray-200 m-2 rounded font-bold p-1"> Popup <i class="fa-solid mx-1 fa-clock"></i> </span> <br>
-
-         <span class="font0  bg-gray-200 m-2 rounded font-bold p-1"> Shop Error <i class="fa-solid mx-1 fa-clock"></i> </span> 
-         
-         <span class="font0  bg-gray-200 m-2 rounded font-bold p-1"> Successful Orders  <i class="fa-solid mx-1 fa-clock"></i> </span> <br>
-         
-         <span class="font0  bg-gray-200 m-2 rounded font-bold p-1"> Funnels <i class="fa-solid mx-1 fa-clock"></i> </span>
+         <span class="font0  bg-gray-100 m-2 text-gray-600 rounded font-bold p-1"> Abandoned Cart <i class="fa-solid mx-1 fa-clock"></i> </span>
+         <span class="font0  bg-gray-100 m-2 text-gray-600 rounded font-bold p-1"> Popup <i class="fa-solid mx-1 fa-clock"></i> </span> <br>
+         <span class="font0  bg-gray-100 m-2 text-gray-600 rounded font-bold p-1"> Shop Error <i class="fa-solid mx-1 fa-clock"></i> </span> 
+         <span class="font0  bg-gray-100 m-2 text-gray-600 rounded font-bold p-1"> Successful Orders  <i class="fa-solid mx-1 fa-clock"></i> </span> <br>         
+         <span class="font0  bg-gray-100 m-2 text-gray-600 rounded font-bold p-1"> Funnels <i class="fa-solid mx-1 fa-clock"></i> </span>
 
         </div>
         </section>

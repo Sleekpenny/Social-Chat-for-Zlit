@@ -7,6 +7,12 @@
     text-transform:inherit;
     
 }
+
+.imagebg {
+    background-image: url(/build/images/images\ \(1\)\ \(1\).jpeg);
+    background-position: contain;
+    background-size: cover;
+}
 .font0 {
     font-family: corbel;
     text-transform: capitalize;
